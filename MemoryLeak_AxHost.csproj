@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworks>net48;net7.0-windows</TargetFrameworks>
+    <UseWindowsForms>true</UseWindowsForms>
+      <PlatformTarget>x86</PlatformTarget>
+      <!--<ProduceReferenceAssembly>True</ProduceReferenceAssembly>-->
+      <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+    <ItemGroup>
+        <COMReference Include="PDFXCviewAxLib">
+            <VersionMinor>0</VersionMinor>
+            <VersionMajor>1</VersionMajor>
+            <Guid>2e19d395-7974-480b-9e28-cf1d7536983f</Guid>
+            <Lcid>0</Lcid>
+            <WrapperTool>tlbimp</WrapperTool>
+            <Isolated>false</Isolated>
+            <EmbedInteropTypes>true</EmbedInteropTypes>
+        </COMReference>
+        <COMReference Include="AxPDFXCviewAxLib">
+            <WrapperTool>aximp</WrapperTool>
+            <VersionMinor>0</VersionMinor>
+            <VersionMajor>1</VersionMajor>
+            <Guid>2e19d395-7974-480b-9e28-cf1d7536983f</Guid>
+            <Lcid>0</Lcid>
+            <Isolated>false</Isolated>
+            <EmbedInteropTypes>False</EmbedInteropTypes>
+        </COMReference>
+    </ItemGroup>
+
+  <ItemGroup>
+    <None Update="PDFXCview.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="PDFXCview.tlb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="PDFXCviewAx.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="PDFXCviewAx.tlb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="PDFXCviewAx.X.manifest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

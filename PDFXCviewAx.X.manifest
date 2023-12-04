@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" 
+  manifestVersion="1.0">
+
+<assemblyIdentity
+   type="win32"
+   name="PDFXCviewAx.X"
+   version="1.0.0.0" />
+
+<file name = "PDFXCviewAx.dll">
+
+<typelib tlbid="{2E19D395-7974-480B-9E28-CF1D7536983F}"
+       version="1.0" helpdir=""/>
+       
+       
+<comClass
+    clsid="{FE36F0F3-F082-41B7-9EED-772505A7C054}"
+    threadingModel = "Apartment" />
+    
+<comClass
+    clsid="{D584CD7A-B8AF-48f7-A543-45021D439A74}"
+    threadingModel = "Apartment" />
+    
+<comClass
+    clsid="{DFC89414-E8E7-49c0-B14E-EB61245D3A5D}"
+    threadingModel = "Apartment" />
+    
+    
+    
+
+
+</file>
+
+<comInterfaceExternalProxyStub 
+    name="IPDFXCview" 
+    iid="{6BBDAD78-4AA9-40B1-977A-1D2A459B49C3}"
+    proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+    baseInterface="{00000000-0000-0000-C000-000000000046}"
+    tlbid = "{2E19D395-7974-480B-9E28-CF1D7536983F}" />
+    
+<comInterfaceExternalProxyStub 
+    name="IPDFXCview2" 
+    iid="{53D68C77-20E5-455b-AA8E-2F071530FE67}"
+    proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+    baseInterface="{00020400-0000-0000-C000-000000000046}"
+    tlbid = "{2E19D395-7974-480B-9E28-CF1D7536983F}" />
+    
+<comInterfaceExternalProxyStub 
+    name="IPDFXCsmartp" 
+    iid="{256342AE-1477-4722-BA9D-4A2AE6984494}"
+    proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+    baseInterface="{00020400-0000-0000-C000-000000000046}"
+    tlbid = "{2E19D395-7974-480B-9E28-CF1D7536983F}" />
+        
+<comInterfaceExternalProxyStub 
+    name="IPDFXCargs" 
+    iid="{C7F70A09-F3F8-4344-A688-6BC747A694B6}"
+    proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+    baseInterface="{00020400-0000-0000-C000-000000000046}"
+    tlbid = "{2E19D395-7974-480B-9E28-CF1D7536983F}" />
+    
+<comInterfaceExternalProxyStub 
+    name="IPDFXCpreview" 
+    iid="{C7BCFE0A-B521-4181-A722-904DBF9427D8}"
+    proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+    baseInterface="{00020400-0000-0000-C000-000000000046}"
+    tlbid = "{2E19D395-7974-480B-9E28-CF1D7536983F}" />
+    
+</assembly>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryLeak_AxHost", "MemoryLeak_AxHost.csproj", "{8058EB50-6E34-491E-AE66-FFAE3A3E5ED4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8058EB50-6E34-491E-AE66-FFAE3A3E5ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8058EB50-6E34-491E-AE66-FFAE3A3E5ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8058EB50-6E34-491E-AE66-FFAE3A3E5ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8058EB50-6E34-491E-AE66-FFAE3A3E5ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FE294A5-79D3-43AD-A852-FD30E6C9F1FB}
+	EndGlobalSection
+EndGlobal
