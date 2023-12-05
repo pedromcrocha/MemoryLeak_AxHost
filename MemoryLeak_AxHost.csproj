@@ -9,6 +9,11 @@
       <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="PDFXCview.tlb" />
+    <None Remove="PDFXCviewAx.tlb" />
+  </ItemGroup>
+
     <ItemGroup>
         <COMReference Include="PDFXCviewAxLib">
             <VersionMinor>0</VersionMinor>
@@ -34,13 +39,7 @@
     <None Update="PDFXCview.exe">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="PDFXCview.tlb">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Update="PDFXCviewAx.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="PDFXCviewAx.tlb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="PDFXCviewAx.X.manifest">

@@ -37,9 +37,9 @@ namespace MemoryLeak_AxHost
             }
             else
             {
-                this.axCopdfxCview1.Dispose();
                 this.Controls.Remove(this.axCopdfxCview1);
                 //this.axCopdfxCview1.ContainingControl = null;
+                this.axCopdfxCview1.Dispose();
                 this.axCopdfxCview1 = null;
             }
 
